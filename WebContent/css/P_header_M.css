@@ -1,0 +1,295 @@
+/* 网页头 */
+#Page_header {
+	width:1349px;
+	height:300px;
+	position:relative;
+}
+
+/* 网页头模块 */
+#modular-Page_header {
+	width:1169px;
+	height:300px;
+	margin-left:100px;
+}
+
+/* 网页头 ——> 轮播图 */
+#modu_header-Carousel_figure {
+	width:500px;
+	height:300px;
+	float:left;
+}
+
+/* 网页头 ——> 最新、热点话题 */
+#modu_header-newest {
+	width:339px;
+	height:300px;
+	float:left;
+	
+}
+
+#hottitle{
+	width:200px ;
+	height:26px ;
+	display:inline-block;
+	position:relative;
+	top:0px ;
+	left :0px ;
+	font-size:18px ;
+	line-height:26px ;
+	padding-left:10px ;
+}
+
+/*新增的*/
+#titlehost li{
+	list-style: none ;
+	margin-bottom:4px ;
+	width:339px;
+	height:18px;
+	display:inline-block;
+	font-size:16px ;
+	border-bottom:1px solid #eee ; 
+}
+
+#modu_header-newest li time{
+	width:78px ;
+	height:15px ;
+	border-radius:5px ;
+	margin-left:5px ;
+	font-size:14px;	
+	display:inline-block;
+	text-align: center ;
+	cursor: pointer;
+}
+
+/*时间*/
+.liemOver{
+	background:#FF0066 ;
+	color:#FFF ;
+}
+
+#titlehost li a{
+	width:200px ;
+	height:18px ;
+	display:inline-block ;
+	color:black;
+	font-size:14px;	
+	position:relative;
+	left:20px ;
+	margin-bottom: 5px ;
+}
+
+/*鼠标移入话题*/
+.titleSpanOver{
+	color:blue ;
+	position:absolute;
+	top:-2px ;
+}
+
+/*鼠标移出*/
+.titleSpanOut{
+	width:15px ;
+	height:18px ;
+	display:inline-block ;
+	color:black;
+	font-size:14px;	
+}
+
+/*换标题*/
+#huantitle{
+	width:70px ;
+	height:20px ;
+	display:block ;
+	text-align: center;
+	position:relative;
+	top:0px ;
+	left:250px ;
+	font-size:16px ;
+}
+
+/* 网页头 ——> 站点圈子 */
+#modu_header-Site_circle {
+	width:330px;
+	height:300px;
+	float:left;
+}
+
+/*新增的*/
+#tuijian{
+	width:1169px ;
+	height:320px ;
+	position:relative;
+	bottom: -2px ;
+}
+
+#bigtuijian{
+	width:575px ;
+	height:320px ;
+}
+
+#mtuijian1,#mtuijian2,#mtuijian3,#mtuijian4{
+	width:280px ;
+	height:155px ;
+}
+
+#mtuijian1{
+	position:relative;
+	top:-320px ;
+	left:592px ;
+}
+
+#mtuijian2{
+	position:relative;
+	top:-475px ;
+	left:888px ;
+}
+
+#mtuijian3{
+	width:280px ;
+	height:155px ;
+	position:relative;
+	top:-465px ;
+	left:592px ;
+}
+
+#mtuijian4{
+	position:relative;
+	top:-620px ;
+	left:888px ;
+}
+
+#modu_header-Site_circlehot{
+	width:200px ;
+	height:30px ;
+	position:relative;
+	left:65px ;
+	line-height:30px ;
+	text-align: center;
+}
+
+#modu_header-Site_circlehot a{
+	width:80px ;
+	height:30px ;
+	display:inline-block;
+	text-decoration: none ;
+	color:black;
+}
+
+#modu1{
+	width:200px ;
+	height:100px ;
+	border-radius: 30px;
+	position:relative;
+	top:20px ;
+	left:65px ;
+	
+}
+
+#modu1 p{
+	width:190px ;
+	height:30px ;
+	position:relative;
+	top:18px ;
+	left:8px ;
+}
+
+#modu2{
+	width:200px ;
+	height:100px ;
+	border-radius: 30px;
+	position:relative;
+	top:40px ;
+	left:65px ;
+	text-align: center ;
+	line-height:100px ;
+}
+
+/*直播*/
+.zhibo1,.zhibo2{
+	width:1169px ;
+	height:153px ;
+	margin-top: 10px ;
+	
+}
+
+/*新增*/
+.many a{
+	height:25px ;
+	width:100px ;
+	display:inline-block ;
+	float:right ;
+	text-align: center ;
+	line-height:25px ;
+	text-decoration: none ;
+	font-size:14px ;
+	border-radius:15px ;
+	margin-top:-30px;	
+	
+}
+
+.many a:hover{
+	background:silver;
+	color:#333;
+	font-weight: bold; 
+}
+
+
+
+/*切换电影*/
+.changeVideo{
+	width:100px ;
+	height:20px ;
+	background:highlight ;
+	display:inline-block;
+	border-radius:15px ;
+	font-size:14px ;
+	text-align: center ;
+	line-height:20px ;
+	margin-top:-28px ;
+	margin-left:950px ;
+}
+.zhibo1 div,.zhibo2 div{
+	width:190px ;
+	height:150px ;
+	margin-right:10px ;
+	display:inline-block;
+	position: relative;
+	top:0px ;
+	left:0px ;
+}
+
+
+/*切换视频*/
+.zhibo1 div img ,.zhibo2 div img{
+	position: absolute;
+	top:0px ;
+	left:0px;
+}
+.zhibo1 div p,.zhibo2 div p{
+	width:190px;
+	height:25px ;
+	position: absolute;
+	top:125px ;
+	left:0px;
+	line-height:25px;
+	margin:0px ;
+	padding:0px ;
+	font-size:14px;
+	overflow: hidden ;
+} 
+
+
+
+.zhubo1p{
+	width:190px ;
+	height:30px ;
+	margin-top: 120px ;
+	z-index: 10000;
+}
+
+.zhibo3{
+	width:338px ;
+	height:313px ;
+	position:relative;
+	left:830px ;
+	top:-316px;
+}

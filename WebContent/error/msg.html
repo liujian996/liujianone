@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>亲,您还没有登录哦!<span id="countdown"></span><a href="/msspace/admin/login.jsp">请点击这里,回到登录页面</a></p>
+	<script>
+			
+			onload = function(){
+				timeId = setInterval("count()",1000) ;
+			}
+
+			var i = 5 ;
+			function count(){
+				var countd = document.getElementById("countdown") ;
+				countd.innerHTML = i ;
+				i-- ;
+				
+				if(i==0){
+					//实现页面自动跳转
+					 window.location.href="/msspace/admin/login.jsp"; 
+					clearInterval(timeId) ;
+					
+				}
+			}
+	</script>
+	
+</body>
+</html>

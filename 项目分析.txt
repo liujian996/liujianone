@@ -1,0 +1,50 @@
+com.ms.msspace.user.entity  		实体对象
+com.ms.msspace.user.dao				dao接口
+com.ms.msspace.user.daoimpl			dao的实现
+com.ms.msspace.user.service.dao		业务接口
+com.ms.msspace.user.service.impl	业务的实现
+com.ms.msspace.user.web.servlet		webServlet
+
+com.ms.msspace.video.entity  		实体对象
+com.ms.msspace.video.dao				dao接口
+com.ms.msspace.video.daoimpl			dao的实现
+com.ms.msspace.video.service.dao		业务接口
+com.ms.msspace.video.service.impl	业务的实现
+com.ms.msspace.video.web.servlet		webServlet
+
+
+
+功能分析
+	1.用户模块
+		注册
+		登录
+		退出
+		
+	2.视频模块	
+		评论视频
+		点赞视频
+		收藏视频
+		视频弹幕
+		关注视频
+		支持视频
+		分享视频
+		观众人数
+		播放
+		状态
+		
+	3.购物车模块
+		添加购物车条目
+		删除购物车条目
+		清空购物车条目
+		我的购物车
+	
+	4.订单模块
+		生成订单
+		我的订单(按用户查询订单)
+		按id查询订单
+		
+	
+		
+		
+		
+		

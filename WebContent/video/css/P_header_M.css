@@ -1,0 +1,39 @@
+/* 网页头 */
+#Page_header {
+	width:1349px;
+	background-color:pink;
+	position:relative;
+}
+
+/* 网页头模块 */
+#modular-Page_header {
+	width:1169px;
+	background-color:lime;
+	margin-left:100px;
+}
+
+/* 网页头 ——> 轮播图 */
+#modu_header-Carousel_figure {
+	width:500px;
+	background-color:blue;
+}
+
+/* 网页头 ——> 最新、热点话题 */
+#modu_header-newest {
+	width:339px;
+	background-color:white;
+}
+
+/* 网页头 ——> 站点圈子 */
+#modu_header-Site_circle {
+	width:330px;
+	background-color:red;
+}
+
+#modu_header-Carousel_figure,#modu_header-newest,#modu_header-Site_circle {
+	float:left;
+}
+
+#Page_header,#modular-Page_header,#modu_header-Carousel_figure,#modu_header-newest,#modu_header-Site_circle {
+	height:300px;
+}

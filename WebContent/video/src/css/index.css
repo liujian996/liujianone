@@ -1,0 +1,143 @@
+/*主页面的特效功能*/
+
+/*导航条的特效*/
+#touxiang{
+	text-align: center ;
+	background: white ;
+}
+
+#Navigation_bar ul li a{
+	display:block;
+	text-align:center;
+	color: black ;
+	background: white ;
+				
+}
+
+#Navigation_bar li a:hover{
+	background: black ;
+	color: white ;
+}
+
+
+/* 这里是显示用户 （隐藏的）*/
+#user{
+	border:3px black solid ;
+	width:280px ;
+	height:380px ;
+	background: white ;
+	opacity:1 ;
+	color: black ;
+	font-size: 20px ;
+	position:absolute;
+	top:40px ;
+	right:-120px ;
+	z-index: 9999 ;
+	text-align: left ;
+	display: none ;
+}
+a:link{
+	text-decoration: none ;
+	color: black ;
+}
+/* 超链接被访问过后时的样式 */
+a:visited{
+	color: black ;
+}
+
+/* 当鼠标经过头像时，就显示用户信息 */
+#touxiang:hover #user{
+	display: block ;
+}
+/* 当鼠标经过头像时的样式 */
+#touxiang #user a:hover{
+	color: white ;
+}
+
+a:hover{
+	color: white ;
+}
+/* 视频模块里面的div  */
+#VideoLogo{
+	width: 800px ;
+	height:500px ;
+	position:absolute ;
+}
+.VideoModule{
+	width: 180px ;
+	height: 130px ;
+	background: red ;
+	position: absolute ;
+	text-align: center ;
+}
+/* 视频的LOGO图片 */
+#VideoLogo1{
+	position: absolute ;
+	top: 5px ;
+	left: 16px ;
+}
+#VideoLogo2{
+	position: absolute ;
+	top: 5px ;
+	left: 212px ;
+}
+#VideoLogo3{
+	position: absolute ;
+	top: 5px ;
+	left: 408px ;
+}
+#VideoLogo4{
+	position: absolute ;
+	top: 5px ;
+	left: 604px ;
+}
+
+#VideoLogo5{
+	position: absolute ;
+	top: 165px ;
+	left: 16px ;
+}
+#VideoLogo6{
+	position: absolute ;
+	top: 165px ;
+	left: 212px ;
+}
+#VideoLogo7{
+	position: absolute ;
+	top: 165px ;
+	left: 408px ;
+}
+#VideoLogo8{
+	position: absolute ;
+	top: 165px ;
+	left: 604px ;
+}
+
+#VideoLogo9{
+	position: absolute ;
+	top:330px ;
+	left: 16px ;
+}
+#VideoLogo10{
+	position: absolute ;
+	top:330px ;
+	left: 212px ;
+}
+#VideoLogo11{
+	position: absolute ;
+	top:330px ;
+	left: 408px ;
+}
+#VideoLogo12{
+	position: absolute ;
+	top:330px ;
+	left: 604px ;
+}
+
+#online{
+	width:180px; 
+	height:80px;
+	position:absolute;
+	left:10px ;
+	top:10px ;
+}

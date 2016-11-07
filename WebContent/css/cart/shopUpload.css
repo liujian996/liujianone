@@ -1,0 +1,22 @@
+/*上传表单的商品详情*/
+#shoptextarea{
+	width:74px ;
+	height:80px ;
+	line-height:80px ;
+	display:inline-block;
+	position:relative;
+	top:-30px ;
+}
+
+
+#textareas{
+	position:relative;top:6px;
+}
+
+.col-md-3{
+	border:1px solid red ;
+}
+
+.col-md-6{
+	border:1px solid #333 ;
+}

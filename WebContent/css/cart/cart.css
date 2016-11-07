@@ -1,0 +1,32 @@
+.container{
+	border:1px solid red ;
+	height:4000px ;
+	width:100% ;
+}
+
+.col-md-msshop{
+	border:1px solid red ;
+	height:850px ;
+	margin-top:100px ;
+}
+
+.col-md-shop1{
+
+	height:350px ;
+	margin-top:25px ;
+}
+
+.col-md-shop3{
+	border:1px solid red ;
+	height:430px ;
+	width:235px ;
+	margin-right:11px ;
+	
+}
+
+.col-md-msshop img{
+	position:absolute;
+	left:85px ;
+	
+}
+
